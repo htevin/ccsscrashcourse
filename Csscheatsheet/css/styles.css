@@ -1,6 +1,6 @@
 body{
 background-color: #f4f4f4;
-color: blue;
+color: rgb(0, 0, 8);
 font-family: Arial, Helvetica, sans-serif;
 font-size: 16px;
 font-weight: normal;
@@ -9,13 +9,79 @@ line-height: 1.6em;
 margin: 0%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
 .container{
     width: 80%;
     margin: auto;
+}
+.buttons {
+    background-color: rgb(13, 0, 73);
+    color: #f4f4f4;
+    padding: 10px 15px;
+    border: none;
 }
 
 .box1{
  background-color: #333;
 color: white;
 
+padding: 20px;
+}
+
+.box1 h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: underline;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.box2{
+   border: 3px dotted rebeccapurple;
+   padding: 20px;
+   margin: 20px 0;
+   color: gray;
+}
+.categories{
+    border: red solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.categories h2 {
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.categories ul {
+    padding: 0;
+    list-style: none;
+}
+.categories li {
+    padding: 1px;
+    border-bottom: blue dotted;
+}
+.myform {
+padding: 20px;
+}
+.formgroup {
+    padding-bottom: 10px;
+}
+
+.formgroup label {
+    display:block
+}
+
+.myform input[type="text"], .myform textarea{
+    padding: 8px;
+    width: 100%;
 }
